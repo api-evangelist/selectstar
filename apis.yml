@@ -1,7 +1,6 @@
 aid: selectstar
 name: Selectstar
-description: 'Selectstar is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Selectstar AI provides data‑centric AI consulting, development, and deployment services, including data design, LLM validation, and end‑to‑end AI solution building. Leveraging over 200 million data tasks, they help enterprises accelerate AI adoption with robust data pipelines and model integration.'
 url: https://raw.githubusercontent.com/api-evangelist/selectstar/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:g2-catalog
@@ -12,6 +11,11 @@ created: '2026-10-18'
 modified: '2026-10-18'
 tags:
 - Company
+- AI
+- Consulting
+- Data
+- LLM
+- Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +23,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/selectstar-domain-security.yml
 - type: Website
   url: https://selectstar.ai/
