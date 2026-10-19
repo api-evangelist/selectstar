@@ -1,0 +1,63 @@
+generated: '2026-10-19'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 4
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - marketing
+  - other
+  - website
+hosts:
+- host: api.selectstar.ai
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: selectstar.ai
+  role: api
+  relation: own
+- host: blog.selectstar.ai
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: selectstar.ai
+  role: marketing
+  relation: own
+- host: dev.selectstar.ai
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: selectstar.ai
+  role: other
+  relation: own
+- host: selectstar.ai
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  - Blog
+  - Documentation
+  - GettingStarted
+  - Support
+  serves: []
+  registrable_domain: selectstar.ai
+  role: website
+  relation: own

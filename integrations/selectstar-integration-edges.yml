@@ -1,0 +1,16 @@
+generated: '2026-10-19'
+method: none
+source:
+- https://zapier.com/apps/selectstar/integrations
+- https://n8n.io/integrations/selectstar/
+- https://composio.dev/toolkits/selectstar
+- https://monid.ai/tools/selectstar
+checked:
+- https://composio.dev/toolkits/selectstar
+- https://monid.ai/tools/selectstar
+- https://n8n.io/integrations/selectstar/
+- https://zapier.com/apps/selectstar/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

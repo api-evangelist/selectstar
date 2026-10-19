@@ -1,14 +1,26 @@
 aid: selectstar
+
 name: Selectstar
+
+image: https://selectstar.ai/wp-content/uploads/2023/07/thum.png
+
 description: 'Selectstar AI provides data‑centric AI consulting, development, and deployment services, including data design, LLM validation, and end‑to‑end AI solution building. Leveraging over 200 million data tasks, they help enterprises accelerate AI adoption with robust data pipelines and model integration.'
+
 url: https://raw.githubusercontent.com/api-evangelist/selectstar/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-19 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-18'
+
 modified: '2026-10-18'
+
 tags:
 - Company
 - AI
@@ -16,14 +28,44 @@ tags:
 - Data
 - LLM
 - Platform
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/selectstar-hosts.yml
+- type: Vendors
+  url: vendors/selectstar-vendors.yml
 - type: DomainSecurity
   url: security/selectstar-domain-security.yml
 - type: Website
   url: https://selectstar.ai/
+- type: Blog
+  url: https://selectstar.ai/blog/
+- type: Documentation
+  url: https://selectstar.ai/
+- type: GettingStarted
+  url: https://selectstar.ai/usecases/
+- type: Support
+  url: https://selectstar.ai/contact_page/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Developer portal at https://dev.selectstar.ai/ serves only JavaScript-rendered pages, preventing machine-readable contract discovery.
+  evidence:
+    - url: https://dev.selectstar.ai/
+      status: 200
+  checked: '2026-10-19'
+x-enrichment:
+  date: '2026-10-19'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

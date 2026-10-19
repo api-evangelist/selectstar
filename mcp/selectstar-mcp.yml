@@ -1,0 +1,13 @@
+generated: '2026-10-19'
+method: none
+source: none
+
+deployment:
+  mode: none
+  endpoint: null
+  install: null
+  package: null
+  auth: unknown
+  verified: derived
+
+# No MCP server discovered for Selectstar.
