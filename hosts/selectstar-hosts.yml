@@ -51,13 +51,16 @@ hosts:
   - probed
   - contract-discovery
   - well-known
+  - vendor-detect
   types:
   - Website
   - Blog
   - Documentation
   - GettingStarted
   - Support
-  serves: []
+  serves:
+  - cdn
+  vendor: cloudflare
   registrable_domain: selectstar.ai
   role: website
   relation: own
